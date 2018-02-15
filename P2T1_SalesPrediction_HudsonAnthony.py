@@ -14,4 +14,4 @@ percentageProfit = float ( input("Enter the percentage of annual profit:"))
 annualProfit = totalSales * percentageProfit
 
 #Display the amount of profit made.
-print ("Congratulations! This is your profit this year:",annualProfit)
+print ("Congratulations! This is your profit this year:", format (annualProfit, ",.2f"))
