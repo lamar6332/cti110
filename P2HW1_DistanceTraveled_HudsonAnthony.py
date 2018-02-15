@@ -20,4 +20,4 @@ distance15 = speed * time15
 #Diplay the distance traveled for each vehicle.
 print ("The vehicle that traveled for six hours covered a distance of:",distance6)
 print ("The vehicle that traveled for ten hours covered a distance of:",distance10)
-print ("The vehicle that traveled for fifteen hours covered a distance of:",distance15)
+print ("The vehicle that traveled for fifteen hours covered a distance of:", format (distance15, ","))
