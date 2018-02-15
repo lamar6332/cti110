@@ -23,10 +23,10 @@ gratuityPaid = float (mealTotal * gratuity)
 totalMealcost = (mealTotal * salesTax)+(mealTotal * gratuity) + mealTotal
 
 #Display amount of sales tax applied to bill.
-print ("Sales tax:",mealTax)
+print ("Sales tax:", format (mealTax, ".2f"))
 
 #Display amount of gratuity applied to the bill.
-print ("Gratuity:",gratuityPaid)
+print ("Gratuity:", format (gratuityPaid, ".2f"))
 
 #Display the total cost of the meal.
 print ("The cost of you meal is:",totalMealcost)
