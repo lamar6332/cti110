@@ -19,6 +19,10 @@ average = (firstGrade + secGrade + thirdGrade) /3
 #Average
 print ("This is your average:", format (average, ".2f"))
 
+#Decisions
+if average >= 95:
+    print ("You done good.")
+    
 
 
 
